@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Салон красоты</title>
+
+    <!-- Метатеги для продвижения -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="заголовок сорынки">
+    <meta property="og:url" content="тут урл сторынки" />
+    <meta property="og:image" content="картинка для сторынки">
+    <meta property="og:description" content="опис для сторынки">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Favicon -->
+    <link rel="icon" href="силка на фавку" type="image/x-icon">
+    <link rel="shortcut icon" href="силка на фавку" type="image/x-icon">
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="header">
+              <a href="/" class="logo"><img src="images/header/logo.png" alt="Салон красоты"></a>
+
+              <div class="toggle-lang">
+                <span class="lang active">RU</span>
+                <span class="lang">ENG</span>
+              </div>
+
+              <address>
+                <img src="images/header/location-icon.png" alt="Иконка локации" class="icon-local">
+                <div class="address-info">г. Киев,ул.Название, д.12</div>
+              </address>
+
+              <div class="order-call">
+                <div class="phone">+38 099 123 45 67</div>
+                <a class="callback-link">Заказать обратный звонок</a>
+                <!-- Popup Form -->
+                <div class="order_callback_overlay">
+                  <div class="order_callback_popup">
+                    <form class="popup_form" method="POST" action="">
+                      <input type="text" name="name" value="" placeholder="Ваше имя" required>
+                      <input type="email" name="email" value="" placeholder="E-mail" required>
+                      <input type="tel" class="form_phone" name="phone" value="" placeholder="Телефон" required>
+                      <textarea name="message"  placeholder="Сообщение" required></textarea>
+                      <div class="popup_btn_submit_box">
+                        <div class="btn popup_btn_submit">Отправить</div>
+                      </div>
+                    </form>
+                    <div class="popup_close_btn"></div>
+                  </div>
+                </div> <!-- End Popup Form -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Top Nav -->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+
+          <div class="toggle_menu_button">
+            <span class="menu_line1"></span>
+            <span class="menu_line2"></span>
+            <span class="menu_line3"></span>
+          </div>
+
+          <nav class="top-nav mobile_menu">
+            <ul class="nav-list">
+              <li class="list-item"><a href="#" class="item-link active">Главная</a></li>
+              <li class="list-item"><a href="#" class="item-link">О компании</a></li>
+              <li class="list-item"><a href="#" class="item-link">Услуги</a></li>
+              <li class="list-item"><a href="#" class="item-link">Портфолио</a></li>
+              <li class="list-item"><a href="#" class="item-link">Отзывы</a></li>
+              <li class="list-item"><a href="#" class="item-link">Контакты</a></li>
+            </ul>
+
+            <div class="close_menu_button"></div>
+          </nav>
+
+          <!-- Фон окна в мобильном меню (< 992px) -->
+          <div class="mask_bg" style="display: none;">&nbsp;</div>
+
+        </div>
+      </div>
+    </div> <!-- End Top Nav -->
+
+    <div class="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-1">
+            <h1>
+              <div class="home-text-block">
+                <div><span>Создай</span> <span>свой</span></div>
+                <div class="white"><span>новогодний</span></div>
+                <div><span>образ</span></div>
+              </div>
+            </h1>
+            <div class="signup-btn-box">
+              <a href="#" class="btn">
+                Записаться
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End Home section -->
+
+    <!-- About Section -->
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>
+              <div class="about_heading">
+                Пару <span>слов</span> о нас
+              </div>
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 col-xl-6">
+            <div class="about_description">
+                <span>Салон</span> <span>красоты</span> <span>– Ваш</span> <span>путь</span> <span>к красоте.</span> <span>Мы</span> <span>умеем</span> <span>воплощать</span> <span>мечты</span> <span>в реальность,</span> <span>подчеркивая</span> <span>Вашу</span> <span>природную</span> <span>красоту</span> <span>и создавая</span> <span>совершенный</span> <span>гармоничный</span> <span>образ.</span> <span>Мы</span> <span>заботимся</span> <span>не</span> <span>только о</span> <span>внешнем виде,</span> <span>но и</span> <span>внутреннем</span> <span>состоянии</span> <span>организма,</span> <span>ведь</span> <span>настоящая</span> <span>красота</span> <span>может</span> <span>быть</span> <span>только</span> <span>в здоровом</span> <span>теле.</span> <span>Наши</span> <span>клиенты</span> <span>уже</span> <span>оценили</span> <span>по</span> <span>достоинству</span> <span>сам</span> <span>салон</span> <span>и работу</span> <span>наших</span> <span>сотрудников.</span> <span>Салон</span> <span>красоты –</span> <span>лучший</span> <span>выбор!</span> <br><br>
+                <span>В</span> <span>нашем</span> <span>салоне</span> <span>Вы</span> <span>найдете</span> <span>все,</span> <span>что</span> <span>необходимо,</span> <span>чтобы</span> <span>стать</span> <span>еще</span> <span>прекрасней:</span> <span>классический</span> <span>и</span> <span>SPA-маникюр,</span> <span>салонные</span> <span>SPA</span> <span>процедуры,</span> <span>парикмахерские</span> <span>услуги.</span> <br><br>
+                <span>Наш</span> <span>салон</span> <span>красоты</span> <span>предлагает</span> <span>услуги</span> <span>по</span> <span>следующим</span> <span>направлениям:</span> <span>парикмахерский</span> <span>зал,</span> <span>косметология,</span> <span>маникюр</span> <span>и</span> <span>педикюр.</span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="about_images about_images_smaller">
+              <img src="images/about/photo_1.png" alt="Фотография салона">
+              <img src="images/about/photo_2.png" alt="Фотография салона">
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="about_images about_image_bigger">
+              <img src="images/about/photo_3.png" alt="Фотография салона">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End About Section -->
+
+    <!-- Services Section -->
+    <div class="services">
+      <div class="services_bg-image"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>
+              <div class="services_heading">
+                Какие <span>услуги</span> мы предлагаем
+              </div>
+            </h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="services_block">
+              <div class="services_item first">
+                <div class="services_icon-box">
+                  <img src="images/services/icon_1.png" alt="Услуги парихмахерской">
+                  <div class="services_item-text">Парикмахерские услуги</div>
+                </div>
+                <img src="images/services/services_photo_1.png" alt="Услуги парихмахерской" class="services_image">
+              </div>
+  
+              <div class="services_item second">
+                <img src="images/services/services_photo_2.png" alt="Маникюр, Педикюр, Покрытие" class="services_image">
+                <div class="services_icon-box reverse">
+                  <img src="images/services/icon_2.png" alt="Маникюр, Педикюр, Покрытие">
+                  <div class="services_item-text">Маникюр, Педикюр, Покрытие</div>
+                </div>
+              </div>
+  
+              <div class="services_item third">
+                <div class="services_icon-box">
+                  <img src="images/services/icon_3.png" alt="Услуги косметолога">
+                  <div class="services_item-text">Услуги косметолога</div>
+                </div>
+                <img src="images/services/services_photo_3.png" alt="Услуги косметолога" class="services_image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End Services Section -->
+
+    <!-- Signup Section -->
+    <div class="signup">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form class="signup_form" action="" method="POST">
+              <h2>
+                <div class="signup_heading">
+                  Закажите <span>обратный</span> звонок
+                </div>
+              </h2>
+              <p class="signup_text">Оставьте номер телефона и наш администратор обязательно перезвонит Вам в ближайшее время.</p>
+              <input type="text" class="name" name="name" value="" placeholder="Ваше имя" required>
+              <input type="tel" class="form_phone" name="phone" value="" placeholder="Номер телефона" required>
+              <button type="submit" class="btn">Отправить заявку</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End Signup Section -->
+
+    <!-- Portfolio Section -->
+    <div class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>
+              <div class="portfolio_heading">
+                Портфолио <span>лучших</span> работ
+              </div>
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="portfolio_list">
+              <li class="portfolio_item"><a class="portfolio_link active" href="#">Все</a></li>
+              <li class="portfolio_item"><a class="portfolio_link" href="#">Стрижки</a></li>
+              <li class="portfolio_item"><a class="portfolio_link" href="#">Прически</a></li>
+              <li class="portfolio_item"><a class="portfolio_link" href="#">Маникюр</a></li>
+              <li class="portfolio_item"><a class="portfolio_link" href="#">Косметолог</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="portfolio_gallery">
+              <div class="portfolio_gallery-box-1-2">
+                <img class="portfolio_photo" src="images/portfolio/portfolio_img_1.png" alt="Фото прически">
+                <img class="portfolio_photo" src="images/portfolio/portfolio_img_2.png" alt="Фото прически">
+              </div>
+            
+              <div class="portfolio_gallery-box-3">
+                <img class="portfolio_photo-big" src="images/portfolio/portfolio_img_3.png" alt="Фото прически">
+              </div>
+            
+              <div class="portfolio_gallery-box-4-5">
+                <img class="portfolio_photo" src="images/portfolio/portfolio_img_4.png" alt="Фото прически">
+                <img class="portfolio_photo" src="images/portfolio/portfolio_img_5.png" alt="Фото прически">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End Portfolio Section -->
+
+    <!-- Share Event Section -->
+    <div class="share_event">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>
+              <div class="share_event_heading">
+                Будь в курсе <span>всех</span> акций
+              </div>
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <form action="" method="POST" action="">
+              <input type="text" name="name" value="" placeholder="Ваше имя" required>
+              <input type="email" name="email" value="" placeholder="E-mail" required>
+              <button type="submit" class="btn">Подписаться</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> <!--- End Share Event section -->
+
+    <!-- Testimonials Section -->
+    <div class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>
+              <div class="services_heading">
+                О <span>нас</span> говорят
+              </div>
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-xl-6">
+            <div class="testimonials_item">
+              <div class="testimonials_client">Елена Иванова <span>| Клиент салона</span></div>
+              <p>I love my eyebrow design. I'm usually very picky about my eyebrows and not everyone can give me what I want. You are amazing. Thank you for the amazing job you’ve done, I’ll be recommending you to my friends from now on!</p>
+              <div class="testimonials_more">
+                <a href="#">Читать полный отзыв</a>
+              </div>
+              <img src="images/testimonials/photo.png" alt="Фото довольного клиента">
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6">
+            <div class="testimonials_item">
+              <div class="testimonials_client">Елена Иванова <span>| Клиент салона</span></div>
+              <p>I love my eyebrow design. I'm usually very picky about my eyebrows and not everyone can give me what I want. You are amazing. Thank you for the amazing job you’ve done, I’ll be recommending you to my friends from now on!</p>
+              <div class="testimonials_more">
+                <a href="#">Читать полный отзыв</a>
+              </div>
+              <img src="images/testimonials/photo.png" alt="Фото довольного клиента">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="testimonials_read_all">
+              <a href="#" class="btn">Читать все отзывы</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End Testimonials Section -->
+
+    <!-- Description Section -->
+    <div class="main_description">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>
+              <div class="first">
+                Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач. Повседневная практика показывает, что рамки и место обучения кадров в значительной степени обуславливает создание дальнейших направлений развития.
+              </div>
+              <br><br>
+              <div class="second">
+                Задача организации, в особенности же новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании модели развития. Идейные соображения высшего порядка, а также новая модель организационной деятельности обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке соответствующий условий активизации.
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End Description Section -->
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="foo_bg_img_1"></div>
+      <div class="foo_bg_img_2"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <ul class="foo_menu">
+              <li class="foo_item"><a href="#" class="foo_link">Главная</a></li>
+              <li class="foo_item"><a href="#" class="foo_link">О нас</a></li>
+              <li class="foo_item"><a href="#" class="foo_link">Услуги</a></li>
+              <li class="foo_item"><a href="#" class="foo_link">Портфолио</a></li>
+              <li class="foo_item"><a href="#" class="foo_link">Отзывы</a></li>
+              <li class="foo_item"><a href="#" class="foo_link">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="foo_contacts_block">
+              <h3 class="foo_contacts_heading">Контакты</h3>
+              <div class="foo_contacts_loc">Город Киев, ул.Улица, д.11</div>
+              <div class="foo_contacts_email">mail@mail.ru</div>
+              <div class="foo_contacts_phone">+38(063)456-67-89</div>
+              <div class="foo_contacts_phone">+38(063)456-67-89</div>
+              <a class="foo_callback">Заказать обратный звонок</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6">
+            <div class="foo_form_block">
+              <h3 class="foo_form_heading">ОСТАЛИСЬ ВОПРОСЫ? <br> МЫ С РАДОСТЬЮ ОТВЕТИМ НА НИХ</h3>
+              <form action="" method="POST" class="foo_form_box">
+                <div class="foo_form_inputs_box">
+                  <div class="foo_inputs_box">
+                    <input type="text" name="name" value="" placeholder="Ваше имя" required>
+                    <input type="tel" class="form_phone" name="phone" value="" placeholder="Номер телефона" required>
+                    <input type="email" name="email" value="" placeholder="E-mail" required>
+                  </div>
+                  <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                </div>
+                <button type="submit" class="btn foo_btn">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="social">
+              <img src="images/footer/instagram.png" alt="Инстаграм">
+              <img src="images/footer/vk.png" alt="Вконтакте">
+              <img src="images/footer/facebook.png" alt="Фейсбук">
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="copyright_info">
+              <div class="copyright">
+                  Copyright © 2018  Все права защищены 
+              </div>
+              <div class="design">
+                  Создание сайтов на заказ
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Up Button -->
+      <a class="up-btn">
+
+
+        <img src="images/icons/up-chevron-button.svg" alt="Кнопка вверх">
+      </a>
+    </footer> <!-- End Footer Section -->
+
+
+    <script src="js/jquery-3-3-1.min.js"></script>
+    <script src="js/maskedinput.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/animation.gsap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

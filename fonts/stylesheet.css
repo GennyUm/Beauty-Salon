@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu.eot');
+    src: url('Ubuntu.eot?#iefix') format('embedded-opentype'),
+        url('Ubuntu.woff2') format('woff2'),
+        url('Ubuntu.woff') format('woff'),
+        url('Ubuntu.ttf') format('truetype'),
+        url('Ubuntu.svg#Ubuntu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('ArialRoundedMTBold.eot');
+    src: url('ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+        url('ArialRoundedMTBold.woff2') format('woff2'),
+        url('ArialRoundedMTBold.woff') format('woff'),
+        url('ArialRoundedMTBold.ttf') format('truetype'),
+        url('ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brush Script MT';
+    src: url('BrushScriptMT.eot');
+    src: url('BrushScriptMT.eot?#iefix') format('embedded-opentype'),
+        url('BrushScriptMT.woff2') format('woff2'),
+        url('BrushScriptMT.woff') format('woff'),
+        url('BrushScriptMT.ttf') format('truetype'),
+        url('BrushScriptMT.svg#BrushScriptMT') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MullerLight';
+    src: url('MullerLight.eot');
+    src: url('MullerLight.eot?#iefix') format('embedded-opentype'),
+        url('MullerLight.woff2') format('woff2'),
+        url('MullerLight.woff') format('woff'),
+        url('MullerLight.ttf') format('truetype'),
+        url('MullerLight.svg#MullerLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerBoldItalic';
+    src: url('MullerBoldItalic.eot');
+    src: url('MullerBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('MullerBoldItalic.woff2') format('woff2'),
+        url('MullerBoldItalic.woff') format('woff'),
+        url('MullerBoldItalic.ttf') format('truetype'),
+        url('MullerBoldItalic.svg#MullerBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 300';
+    src: url('MuseoSansCyrl-300.eot');
+    src: url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('MuseoSansCyrl-300.woff2') format('woff2'),
+        url('MuseoSansCyrl-300.woff') format('woff'),
+        url('MuseoSansCyrl-300.ttf') format('truetype'),
+        url('MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerBlack';
+    src: url('MullerBlack.eot');
+    src: url('MullerBlack.eot?#iefix') format('embedded-opentype'),
+        url('MullerBlack.woff2') format('woff2'),
+        url('MullerBlack.woff') format('woff'),
+        url('MullerBlack.ttf') format('truetype'),
+        url('MullerBlack.svg#MullerBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerRegular';
+    src: url('MullerRegular.eot');
+    src: url('MullerRegular.eot?#iefix') format('embedded-opentype'),
+        url('MullerRegular.woff2') format('woff2'),
+        url('MullerRegular.woff') format('woff'),
+        url('MullerRegular.ttf') format('truetype'),
+        url('MullerRegular.svg#MullerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MullerThin';
+    src: url('MullerThin.eot');
+    src: url('MullerThin.eot?#iefix') format('embedded-opentype'),
+        url('MullerThin.woff2') format('woff2'),
+        url('MullerThin.woff') format('woff'),
+        url('MullerThin.ttf') format('truetype'),
+        url('MullerThin.svg#MullerThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
